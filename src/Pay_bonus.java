@@ -1,7 +1,7 @@
 import java.sql.SQLOutput;
 
 public class Pay_bonus {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int balance = 100;
         int deposit = 1600;
         int bonus = 0;
@@ -12,6 +12,7 @@ public class Pay_bonus {
             bonus = 0;
         }
         balance = balance + deposit + bonus;
+
         System.out.println("Итоговый счет: " + balance + " руб. Бонус: " + bonus + " руб.");
     }
 }
