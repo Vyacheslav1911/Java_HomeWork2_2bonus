@@ -6,7 +6,7 @@ public class Pay_bonus {
         int deposit = 1600;
         int bonus = 0;
 
-        if (deposit >= 1000) {
+        if (deposit > 1000) {
             bonus = deposit / 100;
         } else {
             bonus = 0;
